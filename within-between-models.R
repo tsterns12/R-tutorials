@@ -17,3 +17,5 @@ fakedata <- fakedata %>%
   group_by(ptc) %>%
   mutate(mean_A = mean(A)) %>%
   ungroup()
+
+# New
